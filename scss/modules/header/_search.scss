@@ -52,3 +52,34 @@
     }
   }
 }
+.c-search-autocomplete {
+	background: $color-shade-dark;
+}
+.c-search__input_box {
+	background: $color-shade-dark;
+	border-color: $color-shade-dark;
+	color: $base-font-color;
+}
+.c-search__input_and_close__close {
+	background: $color-shade-dark;
+	border-color: $color-shade-dark;
+	color: $base-font-color;
+}
+.c-search_autocomplete__suggestion_list {
+	background: $color-shade-dark;
+	border-color: $color-shade-dark;
+	color: $color-highlight;
+}
+.c-search_autocomplete__suggestion_item {
+	color: $color-highlight;
+}
+.c-search_autocomplete footer {
+	background: $color-shade-light;
+	border-color: $color-shade-dark;
+	color: $base-font-color;
+}
+.c-search_modal .ql-container.texty_single_line_input {
+	background: $color-shade-dark;
+	border-color: $color-shade-dark;
+	color: $base-font-color;
+}
