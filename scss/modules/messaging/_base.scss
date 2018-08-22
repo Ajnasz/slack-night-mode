@@ -308,7 +308,7 @@ ts-message {
 
   &.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply),
   &.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply),
-  &:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply) {
+  &:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator) {
     background: rgba($color-shade-darkest, 0.1);
     box-shadow: inset 1px 0 0 0 $color-base;
 
